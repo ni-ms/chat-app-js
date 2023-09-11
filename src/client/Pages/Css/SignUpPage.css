@@ -1,0 +1,19 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1e4d90; /* You can replace PrussianBlue with your preferred color */
+}
+
+.login-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px; /* Adjust the border radius to create the squircle effect */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+}
