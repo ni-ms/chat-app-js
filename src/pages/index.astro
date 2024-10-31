@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro';
+import VideoChat from '../components/VideoChat';
+---
+
+<Layout title="Video Chat">
+  <main>
+    <h1>Video Chat</h1>
+    <VideoChat client:load />
+  </main>
+
+  <style>
+    main {
+      margin: auto;
+      padding: 1rem;
+      width: 100%;
+      max-width: 1200px;
+      color: white;
+      font-size: 20px;
+      line-height: 1.6;
+    }
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      line-height: 1;
+      text-align: center;
+      margin-bottom: 1em;
+    }
+  </style>
+</Layout>
